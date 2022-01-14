@@ -1,0 +1,5 @@
+2022-01-09 22:42:14   Arguments: Namespace(cache_refresh_rate=1000, datasets_folder='/content/pitts30k', device='cuda', epochs_num=50, exp_name='default', infer_batch_size=16, lr=1e-05, margin=0.1, neg_samples_num=1000, negs_num_per_query=10, num_workers=8, output_folder='runs/default/2022-01-09_22-42-14', patience=2, queries_per_epoch=5000, recall_values=[1, 5, 10, 20], seed=0, train_batch_size=4, train_positives_dist_threshold=10, val_positive_dist_threshold=32)
+2022-01-09 22:42:14   The outputs are being saved in runs/default/2022-01-09_22-42-14
+2022-01-09 22:42:14   Using 1 GPUs and 2 CPUs
+2022-01-09 22:42:14   Test set: < BaseDataset, pitts30k - #database: 10000; #queries: 6816 >
+2022-01-09 22:46:55   Recalls on < BaseDataset, pitts30k - #database: 10000; #queries: 6816 >: R@1: 78.4, R@5: 90.2, R@10: 93.3, R@20: 95.7
